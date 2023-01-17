@@ -1,0 +1,29 @@
+
+header{
+
+    background-color: white;
+}
+
+.logo{
+
+    vertical-align: middle;
+}
+
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: roboto;
+
+}
+
+.circular{
+
+    display: inline-block;
+    border: 2px solid green;
+
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    
+}
