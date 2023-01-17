@@ -1,21 +1,19 @@
+/* font e colore sfondo */
 body {
 
     font-family: roboto;
     background-color: #F6F8F9;
 }
 
+/* margine e sfondo header */
 header{
     
     margin-bottom: 3%;
     background-color: white;
 }
 
-.logo{
 
-    vertical-align: middle;
-}
-
-
+/* titolo di fianco al logo */
 h1{
     display: inline-block;
     vertical-align: middle;
@@ -23,8 +21,21 @@ h1{
 
 }
 
+hr{
 
+    border-top: 3px solid #F6F8F9;
+    
+    
 
+}
+
+/* allineamento logo */
+.logo {
+
+    vertical-align: middle;
+}
+
+/* impaginazione */
 .container{
     
     background-color: white;
@@ -34,24 +45,24 @@ h1{
 
 }
 
+/* spaziatura degli elementi delle liste */
 .spaziatura{
 
-    
-    margin-bottom: 3%;
+     margin-bottom: 3%;
 
 }
 
+/* posizione spunta verde e X rossa */
 .circular{
 
     display: inline-block;
     text-align: center;
     
-    
-    
-
 }
 
+/* caratteristiche di grandezza e posizione bottoni */
 .bottoni{
+    
     height: fit-content;
     width: fit-content;
     padding: 10px;
@@ -59,12 +70,15 @@ h1{
     
 }
 
+/* colori bottone add task */
 #task{
-    border: 0px;
+    
+    border-color: white;
     background-color: #47ADF1;
     color: white;
 }
 
+/* colori bottone add selection */
 #selection{
 
     background-color: white;
@@ -73,6 +87,7 @@ h1{
 
 }
 
+/* caratteristiche generali delle etichette colorate */
 .etichetta{
     
     display: inline-block;
@@ -84,6 +99,7 @@ h1{
     color: white;
 }
 
+/* etichetta azzurra editorial */
 .editorial{
 
     background-color: #45ABEA;
@@ -91,7 +107,7 @@ h1{
 }
 
 
-
+/* etichetta viola Q1 goals */
 .goals{
 
     background-color: #9C72E4;
@@ -99,18 +115,34 @@ h1{
 
 }
 
+/* etichetta verde recruiting */
 .recruiting{
 
     background-color: #65C1AA;
 
 }
 
+/* etiochetta arancione mobile */
 .mobile{
 
     background-color: #F29E33;
 
 }
 
+/* etichetta rosa website */
+.website{
+
+    background-color: #D863A1;
+
+}
+
+/* etichetta verde chiara sales */
+.sales{
+
+    background-color: #B0C926;
+}
+
+/* caratteristiche e inserimento spunta verde lista */
 .check::after{
     content:'\2713';
     border: 2px solid green;
@@ -121,6 +153,7 @@ h1{
     padding: 3px;
 }
 
+/* caratteristiche e inserimento X lista */
 .red-flag::after{
     content: 'X';
     border: 2px solid red;
@@ -131,3 +164,4 @@ h1{
     padding: 3px;
 
 }
+
